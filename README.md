@@ -81,8 +81,7 @@ There are many ways in which this authentication can be implemented
   For expample, to register your app with Github API. go to:
   
   ```
-  github.com > settings > applications > new```
-
+  github.com > settings > applications > new
 
 
  After we register the application, it gives us a Client ID and a Client Secret
