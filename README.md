@@ -49,16 +49,18 @@ What is REST :
  - What is RESTful:
    - It means conforming to the REST restrictions.
 
-- HTTP Methods:
+
+* HTTP Methods:
+
 Since REST uses HTTP, we need to have a look at HTTP method:
- - GET: used to retrieve data from a specified resource.
- - POST: Used to submit data to be processed by a specified resource.
- - PUT: Update a specified resource, usually by sending a request to a uri with an id for that
+   - GET: used to retrieve data from a specified resource.
+   - POST: Used to submit data to be processed by a specified resource.
+   - PUT: Update a specified resource, usually by sending a request to a uri with an id for that
  specific resource.
- - DELETE: Deletes a resource.
- - HEAD: Same as GET, but it doesn't return a body. It just returns the head information.
- - OPTIONS : Can be used to see the supported methods of a server.
- - PATCH: Used to update partial resources.
+   - DELETE: Deletes a resource.
+   - HEAD: Same as GET, but it doesn't return a body. It just returns the head information.
+   - OPTIONS : Can be used to see the supported methods of a server.
+   - PATCH: Used to update partial resources.
 
 -Authentication:
 - Some API's require authentication to use their service.
