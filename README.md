@@ -79,15 +79,16 @@ There are many ways in which this authentication can be implemented
 - What is request limit:
   You can make requests to an api without authentication. Other API's, however, require authentication for certain amount of requests. So, to keep using an application, we have to register it with the provider's website.
   For expample, to register your app with Github API. go to:
+  
   ```
-  `github.com` > `settings` > `applications` > `new`
+  github.com > settings > applications > new```
 
- ```
+
 
  After we register the application, it gives us a Client ID and a Client Secret
  and we can use them. We can include them within our application code or we
  can insert them right within the url we're requesting.
-------------------------------------------------------------
+
 ## Workshop:
 ### Initial Setup
 
