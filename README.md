@@ -37,7 +37,7 @@ API's are characterized by:
 - API's are a contract provided by one piece of software to another.
 
 What is REST :
-- It stands for  REpresentational State Transfer (REST).
+- It stands for  **RE**presentational **S**tate **T**ransfer (REST).
 - It is an architecture style for designing networked communications.
 - Relies on a client-server protocol, always HTTP.
 - It treats server objects as resources that can be updated or destroyed.
@@ -81,7 +81,7 @@ There are many ways in which this authentication can be implemented
 - What is request limit:
   You can make requests to an api without authentication. Other API's, however, require authentication for certain amount of requests. So, to keep using an application, we have to register it with the provider's website.
   For expample, to register your app with Github API. go to:
-  
+
   ```
   github.com > settings > applications > new
 
